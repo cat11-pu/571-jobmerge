@@ -1,0 +1,17 @@
+{
+  "id": "dtbook-to-pef",
+  "options": [
+    {"name": "input",    "type": "string",             "required": true},
+    {"name": "mode",     "type": "choice",             "values": ["speech", "embossed"], "default": "speech"},
+    {"name": "notes",    "type": "string",             "sequence": true},
+    {"name": "output",   "type": "string",             "default": "."},
+    {"name": "pages",    "type": "integer",            "sequence": true, "min": 1, "max": 40, "default": "1,4"},
+    {"name": "priority", "type": "choice",             "values": ["high", "medium", "low"], "required": true},
+    {"name": "retries",  "type": "nonNegativeInteger", "max": 9, "default": "3"},
+    {"name": "styles",   "type": "string"},
+    {"name": "tag",      "type": "pattern",            "pattern": "[a-z]{2}-[0-9]{2}", "default": "en-01"},
+    {"name": "title",    "type": "string"},
+    {"name": "toc",      "type": "boolean",            "default": "true"},
+    {"name": "verbose",  "type": "boolean",            "default": "false"}
+  ]
+}

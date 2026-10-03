@@ -1,0 +1,13 @@
+--input=/docs/book.xml
+--pages=2,5
+--pages=11
+--tag=zz-99
+--verbose=true
+--nope=3
+--mode=embossed,speech
+--verbose=false
+--retries=-1
+--toc=maybe
+--title=
+--notes=x
+--notes=y,z

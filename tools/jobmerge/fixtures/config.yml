@@ -1,0 +1,17 @@
+# jobmerge merge profile for dtbook-to-pef
+# flat keys; a dash item attaches to the last key whose value is empty
+output: /srv/out
+mode: embossed
+mode: speech
+retries: 12
+tag: EN-1
+verbose: yes
+pages:
+  - 7
+  - 9
+title:
+extra_flag: 1
+styles:
+  - a
+  - b
+notes a, b
